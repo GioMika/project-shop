@@ -60,7 +60,6 @@ const Cart = () => {
                     </div>
 
                     <span>{quantity}</span>
-
                     <div
                       className={styles.plus}
                       onClick={() =>
@@ -74,9 +73,7 @@ const Cart = () => {
                       </svg>
                     </div>
                   </div>
-
                   <div className={styles.total}>{price * quantity}$</div>
-
                   <div
                     className={styles.close}
                     onClick={() => removeItem(item.id)}
